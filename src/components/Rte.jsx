@@ -45,7 +45,6 @@ export default function Rte({ name, control, label, defaultValue = "", ...props 
 
               mobile:{
                 menubar:true,
-                theme: 'mobile',
                 plugins: [ 'autosave', 'lists', 'autolink' ],
                 toolbar: [ 'undo', 'bold', 'italic', 'styleselect' ]
               }
