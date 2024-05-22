@@ -41,7 +41,13 @@ export default function Rte({ name, control, label, defaultValue = "", ...props 
                 "anchor",
               ],
               toolbar: "undo redo | formatselect | bold italic forecolor | alignleft aligncenter alignright alignjustify | bullist numlist | link image media | removeformat | help",
-              content_style: "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }"
+              content_style: "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }",
+
+              mobile:{
+                menubar:true,
+                plugins:'autosave lists autolink',
+                toolbar:'undo bold italic styles'
+              }
             }}
             onEditorChange={onChange}
           />
