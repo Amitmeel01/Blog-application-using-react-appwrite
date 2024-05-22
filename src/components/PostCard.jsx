@@ -22,7 +22,7 @@ function PostCard({ $id, title, featuredImage }) {
         <Link to={`/post/${$id}`}>
             <div className='w-full bg-gray-100 rounded-xl p-4'>
                 <div className='w-full h-48 '>
-                    {imageSrc && <img src={imageSrc} alt={title} className='object-cover w-full h-full rounded-xl' />}
+                    {imageSrc && <img src={imageSrc} alt={title} className='object-cover w-full h-full rounded-xl ' />}
                     {!imageSrc && <div className='placeholder-image w-full h-full rounded-xl bg-gray-200' />}
                 </div>
                 <h2 className='text-xl font-bold px-0 pt-2 text-center mt-2'>{title}</h2>
