@@ -17,7 +17,7 @@ export default function Rte({ name, control, label, defaultValue = "", ...props 
             init={{
               branding: false,
               height: 500,
-              menubar: false,
+              menubar: true,
               plugins: [
                 "image",
                 "advlist",
@@ -45,8 +45,7 @@ export default function Rte({ name, control, label, defaultValue = "", ...props 
 
               mobile:{
                 menubar:true,
-                plugins: [ 'autosave', 'lists', 'autolink' ],
-                toolbar: [ 'undo', 'bold', 'italic', 'styleselect' ]
+                
               }
             }}
             onEditorChange={onChange}
