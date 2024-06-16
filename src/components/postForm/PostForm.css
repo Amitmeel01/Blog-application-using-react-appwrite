@@ -1,0 +1,28 @@
+.react-quill{
+    background: white;
+    height: 400px;
+    outline: none;
+  
+}
+
+@media (max-width:450px){
+    .featured{
+      margin-top: 4rem;
+      padding: 1rem 0 2rem 0rem;
+       
+    }
+    .feature{
+        margin: 2rem;
+    }
+}
+
+@media (max-width:770px){
+    .featured{
+      margin-top: 4rem;
+      padding: 1rem 0 2rem 0rem;
+       
+    }
+    .feature{
+        margin: 2rem;
+    }
+}
